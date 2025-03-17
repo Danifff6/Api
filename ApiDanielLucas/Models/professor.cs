@@ -8,7 +8,7 @@
         public string? mae { get; set; }
         public string? rma { get; set; }
         public DateTime data_nascimento { get; set; }
-        public escola? escola { get; set; }
+        public int escola_id { get; set; }
         public string? componente_curricular { get; set; }
 
     }

@@ -9,8 +9,8 @@
         public string? mae { get; set; }
         public string? rma { get; set; }
         public DateTime data_nascimento { get; set; }
-        public escola? escola { get; set; }
-        public professor professor { get; set; }
+        public int escola_id { get; set; }
+        public int professor_id { get; set; }
 
 
     }

@@ -2,10 +2,10 @@
 {
     public class escola
     {
-        public int id_escola {  get; set; }
+        public int id {  get; set; }
         public string? nome { get; set; }
         public string? cnpj { get; set; }
-        public aluno? aluno { get; set; }
-        public professor? professor { get; set; }
+        public int aluno_id { get; set; }
+        public int professor_id { get; set; }
     }
 }
